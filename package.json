@@ -5,6 +5,7 @@
   "author": "Willane Paiva <willanepaiva@hotmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "autoprefixer": "^9.6.5",
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
@@ -24,7 +25,12 @@
     "modules": false,
     "plugins": {
       "autoprefixer": {
-        "browsers": [">1%", "last 4 versions", "Firefox ESR", "not ie < 9"],
+        "browsers": [
+          ">1%",
+          "last 4 versions",
+          "Firefox ESR",
+          "not ie < 9"
+        ],
         "flexbox": "no-2009"
       }
     }

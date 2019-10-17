@@ -1,0 +1,10 @@
+.todo-item {
+  display: flex;
+  & p {
+    word-wrap: wrap;
+    padding: .5em;
+    @media (min-width: 768px) {
+      padding: 0 1em;
+    }
+  }
+}

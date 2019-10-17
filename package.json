@@ -14,8 +14,10 @@
     "react-hot-loader": "^4.12.15"
   },
   "dependencies": {
+    "@material-ui/core": "^4.5.1",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "typeface-roboto": "^0.0.75"
   },
   "scripts": {
     "start": "NODE_ENV=development parcel src/index.html --open",

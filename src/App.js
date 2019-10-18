@@ -1,10 +1,17 @@
 import React from 'react';
-import TodoItem from './components/TodoItem/TodoItem';
+
+import Todos from './containers/Todos/Todos';
+import NewTodo from './components/NewTodo/NewTodo';
+import ErrorMessage from './components/ErrorMessage/ErrorMessage';
+
+import './App.scss';
 
 const App = () => (
-  <div>
-    <h1>Todo list</h1>
-    <TodoItem text='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua' />
+  <div className="app">
+    <h1>To do list</h1>
+    <Todos />
+    <NewTodo />
+    <ErrorMessage />
   </div>
 );
 

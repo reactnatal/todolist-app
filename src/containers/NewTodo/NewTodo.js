@@ -1,7 +1,7 @@
 import React from 'react';
 import Input from '@material-ui/core/Input';
 
-import SaveButton from '../SaveButton/SaveButton';
+import SaveButton from '../../components/SaveButton/SaveButton';
 
 import './NewTodo.scss';
 

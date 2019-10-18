@@ -1,0 +1,9 @@
+.new-todo {
+  margin: auto 1em;
+  &__title {
+    margin: 5em auto;
+  }
+  &__input {
+    margin: 0.5em auto 2em;
+  }
+}

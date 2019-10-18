@@ -1,5 +1,9 @@
 .app {
   text-align: center;
+  margin: 1em;
+  @media (min-width: 768px) {
+    margin: 2em;
+  }
   & h1 {
     margin-bottom: 1em;
   }

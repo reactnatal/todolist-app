@@ -1,0 +1,7 @@
+.error-message {
+  padding: 6em 2em;
+  word-break: break-all;
+  @media (min-width: 768px) {
+    padding: 10em 5em;
+  }
+}
